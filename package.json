@@ -1,0 +1,22 @@
+{
+  "name": "firstmeanapp",
+  "version": "1.0.0",
+  "description": "Learning my first mean app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "John Wiand",
+  "license": "ISC"
+}
