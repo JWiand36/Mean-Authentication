@@ -29,7 +29,7 @@ const users = require('./routes/users');
 app.use(cors());
 
 //Set static folder
-app.use(express.static(path.join(__dirname, 'client')));
+app.use('static', express.static(path.join(__dirname, 'client/public')));
 
 //Body Parser Middleware which grabs the data
 app.use(bodyParser.json());
